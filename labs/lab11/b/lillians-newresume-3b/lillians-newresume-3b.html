@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link type="text/css" rel="stylesheet" href="lillians-newresume-3b.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@500&family=Quando&display=swap"
+              rel="stylesheet">
+        <meta
+                name="Homepage / Lillian's Resume"
+                content="A website providing users an interactive way to view Lillian Parrotta's resume."
+        >
+
+        <title>Homepage | CS103</title>
+    </head>
+    <body>
+        <div id="page-wrapper">
+            <header>
+                <br>
+                <h1 class="encode-sans">Lillian Parrotta</h1>
+                <br>
+                <p id="subtitle">You can navigate through my resume using the options below. My email is lrparr@bu.edu</p>
+                <br>
+                <br>
+                <label for="age">Enter your age to access: </label><input id="age" placeholder="Age">
+                <button onclick="checkAge()" id="check-age">Check Age</button>
+            </header>
+            <h3 id="output"></h3>
+            <div id="container">
+                <nav>
+                    <ul>
+                        <li><a href="../lillians-newresume-3b/lillians-newresume-3b.html">Home</a></li>
+                        <li><a href="../education/education.html">Education</a></li>
+                        <li><a href="../skills/skills.html">Skills</a></li>
+                        <li><a href="../experience/experience.html">Experience</a></li>
+                        <li><a href="../activities/activities.html">Activities</a></li>
+                    </ul>
+                </nav>
+                <main>
+                    <br>
+                    <br>
+                    <h3>Home</h3>
+                    <br>
+                    <p>Welcome to my online, interactive resume. </p>
+                    <br>
+                    <br>
+                    <a href="../credits-3b/credits-3b.html#portrait">
+                        <img src="../src/portrait.jpeg" alt="candidate">
+                    </a>
+                    <br>
+                    <br>
+                </main>
+            </div>
+            <footer>
+                <p>All rights reserved &#169; <a href="../credits-3b/credits-3b.html">Credits</a></p>
+                <div id="time-date"></div>
+            </footer>
+            <script src="lillians-newresume-3b.js"></script>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /cs-103/
+
+Sitemap: /lab3b-sitemap.xml

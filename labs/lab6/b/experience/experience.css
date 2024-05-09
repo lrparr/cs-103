@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+#page-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(245, 238, 200);
+}
+
+
+/* nav plus main div tag */
+    #container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+
+    }
+
+
+header, footer {
+    background-color:  rgb(167, 211, 151);
+    text-align: center;
+    margin-top: 0;
+}
+    header, #subtitle {text-align: left}
+
+    header {
+        padding: 2%
+    }
+        h1 {
+            font-size: calc(2vw + 15px);
+        }
+        header p {
+            font-size: calc(1vw + 5px);
+        }
+    footer {
+        padding: 1%
+    }
+
+
+
+/* nav settings */
+    nav {
+        width: 20%;
+
+    }
+    nav ul {
+        list-style: none;
+        padding: 1.5%;
+        text-align: center;
+        background-color: #FF8787;
+        margin: 0;
+        align-items: center;
+        height: 100%;
+    }
+    nav li {
+        margin: 10% 0.5% 10% 0;
+        border: solid black 2px;
+        padding: 3% 0.5%;
+        background-color: beige;
+        align-items: center;
+        font-size: calc(1vw + 8px);
+    }
+    nav li a {
+        text-decoration: none;
+        padding: 1%;
+        color: black
+    }
+
+/* main settings */
+    main{
+        width: 80%;
+        font-size: calc(1vw + 12px)
+    }
+    main h3 {
+        font-size: calc(0.8vw + 20px);
+    }
+    main p {
+        font-size: calc(0.8vw + 10px);
+    }
+
+    main li {
+        font-size: calc(0.8vw + 10px);
+    }
+
+
+/* queries */
+@media screen and (max-width: 750px) {
+    #container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    nav {width: 100%}
+    main {width: 100%}
+    nav ul {
+        margin: 1.5% 0;
+    }
+    nav li {
+        display: inline;
+        margin: 5% 0.5%;
+        padding: 0.5%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    header {
+        text-align: center;
+    }
+    #subtitle {text-align: center;}
+}
+
+
+/*unique code*/
+    h3, p {
+        text-align: center;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+        max-width: 60%
+    }
+    .encode-sans {
+        font-family: "Encode Sans SC", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-variation-settings:
+                "wdth" 100;
+    }

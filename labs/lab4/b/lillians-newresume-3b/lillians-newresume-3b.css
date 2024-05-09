@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+div {
+    width: 80vw;
+    margin: auto;
+    background-color: rgb(228, 228, 208);
+}
+header, footer {
+    background-color:  rgb(174, 195, 174);
+    text-align: center;
+    margin: 1%
+}
+header {
+    padding: 20px
+}
+footer {
+    padding: 10px
+}
+
+nav ul {
+    list-style: none;
+    padding: 1%;
+    text-align: center;
+    background-color: rgb(187, 226, 236);
+    margin: 1.5% 0;
+}
+nav li {
+    display: inline;
+    margin: 5% 5%;
+    border: solid black 2px;
+    padding: 5px;
+    background-color: cadetblue;
+
+}
+nav li a {
+    text-decoration: none;
+    padding: 14px 16px;
+    color: black
+}
+
+
+/*unique code*/
+h3, p {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+}

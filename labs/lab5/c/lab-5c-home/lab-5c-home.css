@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+div {
+    width: 80vw;
+    margin: auto;
+    background-color: rgb(255, 247, 194);
+}
+header, footer {
+    background-color: rgb(255, 162, 88);
+    text-align: center;
+    margin: 1%
+}
+header {
+    padding: 2%
+}
+footer {
+    padding: 1%
+}
+/*nav bar horizontal*/
+nav ul {
+    list-style: none;
+    padding:  1%;
+    text-align: center;
+    background-color: mediumpurple;
+    margin: 1.5% 0
+}
+nav li {
+    display: inline;
+    margin: 5% 3%;
+    border: solid black 2px;
+    padding:  0.5%;
+    background-color: antiquewhite;
+}
+nav li a{
+    text-decoration: none;
+    padding: 1%;
+    color: black
+}
+/*unique code*/
+h3, p {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 60%
+}

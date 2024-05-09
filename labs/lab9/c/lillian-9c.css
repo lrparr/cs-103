@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#page-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    background-color: lightpink;
+    height: 100vh;
+}
+
+h1, h2, #input-area {
+    text-align: center;
+}
+
+label {
+    font-size: calc(1vw + 7px);
+}
+
+input {
+    font-size: calc(1vw + 7px);
+}
+
+button {
+    font-size: calc(1vw + 6px);
+}

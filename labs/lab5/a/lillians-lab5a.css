@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#page-wrapper {
+    width: 80vw;
+    margin: auto;
+    background-color: antiquewhite;
+}
+header, h3, ol, ul {
+    text-align: center;
+    list-style-position: inside;
+}
+p {
+    background-color: #FFD1E3;
+    text-align: center;
+    width: 60vw;
+    margin: auto
+}
+h1 {font-variant: small-caps;
+    color: #E36414;
+}
+h3 {font-variant: small-caps;
+    color: #6B240C;
+}
+#one {
+    border: darkred 3px solid;
+    margin: auto;
+    width: 30vw;
+}
+#two {
+    margin: 0 20px
+}
+#three {background-color: #D5F0C1
+}
+#four {background-color: #EAECCC}
+#five {background-color: #DED0B6}
+#six {background-color: #FED9ED}
+#seven {background-color: #B2C8BA}
+#eight {background-color: #D2E0FB}
+#nine {background-color: #DFCCFB}
+#ten {background-color: #FFD9C0}
+#eleven {background-color: #FFBFA9}
+#twelve {color: darkred}
+#thir {color: darkblue}
+#fourt {color: saddlebrown}
+#fif {color: brown}
+#sixt {color: darkgreen}
+.ran {
+    color: darkcyan;
+}

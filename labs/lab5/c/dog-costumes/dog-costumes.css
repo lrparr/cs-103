@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+div {
+    width: 80vw;
+    margin: auto;
+    background-color: rgb(255, 201, 150);
+}
+header, footer {
+    background-color: rgb(163, 103, 177);
+    text-align: center;
+    margin: 1%
+}
+header {
+    padding: 2%
+}
+footer {
+    padding: 1%
+}
+/*nav bar horizontal*/
+nav ul {
+    list-style: none;
+    padding:  1%;
+    text-align: center;
+    background-color: antiquewhite;
+    margin: 1.5% 0
+}
+nav li {
+    display: inline;
+    margin: 5% 3%;
+    border: solid black 2px;
+    padding:  0.5%;
+    background-color: rgb(234, 144, 108);
+}
+nav li a{
+    text-decoration: none;
+    padding: 1%;
+    color: black
+}
+/*unique code*/
+h3, p {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 25%
+}
+
+.dog {
+    font: normal bold normal 16px Garamond, "Times New Roman", serif;
+
+}
+
+
+#metal-mania-regular {
+    font: normal 400 30px "Metal Mania", system-ui;
+
+}
+
+#frijole-regular {
+    font: normal 400 40px "Frijole", system-ui
+}
